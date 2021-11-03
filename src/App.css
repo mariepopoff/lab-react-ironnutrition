@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  width: 500px;
+}
+
+#food-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+#main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px
+}
+
+#today-food{
+  width: 300px;
+}
+
+#today-food p{
+  font-weight: bolder;
+  font-size: 30px;
+}
